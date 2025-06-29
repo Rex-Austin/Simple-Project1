@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(254, 225, 225);
+}
+
+/* Header */
+header h2 {
+    text-align: center;
+    color: rgb(17, 17, 96);
+}
+
+/* Nav Bar */
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: red;
+}
+
+ul li a {
+    padding: 20px;
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover:not(.active) {
+    background-color: rgb(244, 92, 92);
+}
+
+.login {
+    float: right;
+}
+
+.active {
+    background-color: rgb(50, 48, 48);
+}
+
+/* Head img */
+img {
+    width: 100%;
+}
+
+/* section */
+
+.imgDiv {
+    width: 50%;
+   float: left;
+}
+
+.imgDiv img {
+    width: 100%;
+}
+
+.textDiv {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.text {
+    text-align: justify;
+    line-height: 20px;
+}
+
+div h2 {
+    color: rgb(17, 17, 96);
+    margin: 10px;
+}
+
+section {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Footer Icon */
+footer{
+   width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.icon{
+    text-align: center;
+    font-size: 30px;
+}
+
+div i{
+    margin-right: 30px;
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-instagram{
+    color:brown;
+}
+
+.footertext{
+    line-height: 40px;
+}
+
+.name{
+    color: red;
+}
